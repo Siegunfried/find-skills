@@ -1,0 +1,15 @@
+{
+  "name": "find-skills-marketplace",
+  "description": "Passive self-expansion engine for Claude Code - AI automatically finds and installs plugins when stuck",
+  "owner": {
+    "name": "Siegunfried"
+  },
+  "plugins": [
+    {
+      "name": "find-skills",
+      "description": "Passive self-expansion engine - automatically searches multiple sources to find and install plugins when built-in tools are insufficient. Unlike skill-issue and skill-manager which require manual invocation, this skill triggers automatically when the AI self-diagnoses that it is stuck.",
+      "category": "productivity",
+      "source": "./plugins/find-skills"
+    }
+  ]
+}

@@ -48,22 +48,12 @@ AI 卡住 → 自诊断 → 触发 find-skills
 ### 安装
 
 ```bash
-# 添加本地 marketplace
-claude plugin marketplace add https://github.com/siegunfried/find-skills
-
-# 安装插件
+# 一键安装
+claude plugin marketplace add Siegunfried/find-skills
 claude plugin install find-skills
 
 # 验证
 claude plugin details find-skills
-```
-
-或者本地安装：
-
-```bash
-git clone https://github.com/siegunfried/find-skills.git
-claude plugin marketplace add ./find-skills
-claude plugin install find-skills
 ```
 
 ### 开发计划
@@ -119,7 +109,7 @@ AI gets stuck → self-diagnosis → triggers find-skills
 ### Install
 
 ```bash
-claude plugin marketplace add https://github.com/siegunfried/find-skills
+claude plugin marketplace add Siegunfried/find-skills
 claude plugin install find-skills
 claude plugin details find-skills
 ```
