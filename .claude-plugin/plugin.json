@@ -1,0 +1,8 @@
+{
+  "name": "find-skills",
+  "description": "Smart skill discovery - automatically searches the Claude Code plugin marketplace to find and install relevant plugins when built-in tools are insufficient for a task",
+  "version": "2.0.0",
+  "author": {
+    "name": "User"
+  }
+}
